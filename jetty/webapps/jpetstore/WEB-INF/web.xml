@@ -63,7 +63,7 @@
 	<!-- End: Integration of Kieker's SessionAndTraceRegistrationFilter -->
 
 	<!-- Begin: Example for kieker.monitoring.probe.servlet.SystemResourceUsageServletContextListener  -->
-	<context-param>
+	<!-- <context-param>
 	  <param-name>SystemResourceUsageServletContextListener.samplingIntervalSeconds</param-name>
 	  <param-value>15</param-value>
 	</context-param>
@@ -77,11 +77,11 @@
 	  <listener-class>
 	    kieker.monitoring.probe.servlet.SystemResourceUsageServletContextListener
 	  </listener-class>
-	</listener>
+	</listener> -->
 	<!-- End: Example for kieker.monitoring.probe.servlet.SystemResourceUsageServletContextListener -->
 
 	<!-- Begin: Example for additional samplers  -->
-	<context-param>
+	<!-- <context-param>
 	  <param-name>GCServletContextListener.samplingIntervalSeconds</param-name>
 	  <param-value>1</param-value>
 	</context-param>
@@ -159,7 +159,7 @@
 	  <listener-class>
 	    kieker.monitoring.probe.servlet.JVMMemoryServletContextListener
 	  </listener-class>
-	</listener>
+	</listener> -->
 	<!-- End: Example for additional samplers -->
 	
 </web-app>
